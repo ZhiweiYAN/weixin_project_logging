@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<parameters WeiXin="EnPaiHighTech">
+	<Token>project</Token>
+	<EncodingAESKey>PId9elWI4D1E1uVv4MCjzKdNBmPn9BWfnRqJoYuJz2X</EncodingAESKey>
+	<CorpID CorpName="恩湃高科">wx0af1900070a3ea37</CorpID>
+	<CorpSecret>nuoYdEnwZli9Oi016OjltxMIbYbyhtdyoC55uKtYkdP8a9ndVOFW4qNkvH_eydLz</CorpSecret>
+	<FetchTokenUrl>https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=%s&amp;corpsecret=%s</FetchTokenUrl>
+    <AccessTokenExpireDuration>10</AccessTokenExpireDuration>
+
+	<ERR001>您的登录已过期。请关闭程序后，重新登录。</ERR001>
+	<ERR002>您未在该项目。请关闭程序后，重新登录。</ERR002>
+	<ERR003>该页面已过期。请关闭程序后，重新登录。</ERR003>
+	<ERR004>操作过于频繁。请关闭程序后，重新登录。</ERR004>
+
+    <DBIP>127.0.0.1</DBIP>
+    <DBPort>5432</DBPort>
+    <DBUser>postgres</DBUser>
+    <DBPassword>1234</DBPassword>
+    <DBName>test002</DBName>
+</parameters>
